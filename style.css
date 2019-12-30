@@ -1,0 +1,149 @@
+body {
+    overflow-y: visible;
+    background: url("/images/cloudy_night.jpg") 50% 0px no-repeat rgb(38, 112, 175);
+    margin-top: 0px;
+}
+
+.main_container {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+
+
+/* Colors */
+
+
+/* Colors */
+
+
+/* Positions */
+
+.center {
+    text-align: center;
+}
+
+
+/* Positions */
+
+.navbar {
+    background-color: rgb(54, 54, 128) !important;
+}
+
+.navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-brand span {
+    padding-left: 20px;
+    font-size: 28px;
+    color: white;
+    font-weight: 800px !important;
+}
+
+h1 {
+    color: blue;
+}
+
+.main_image {
+    margin: 2px auto;
+}
+
+.input_field {
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.find {
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.detail_icon img {
+    height: 40px;
+    width: 40px;
+}
+
+.now_location {
+    font-size: 24px;
+    color: rgb(247, 152, 9);
+}
+
+.now_time {
+    font-size: 18px;
+    color: white;
+}
+
+.now_temp {
+    font-size: 75px;
+    color: rgb(255, 115, 0);
+}
+
+.sub {
+    font-size: 25px;
+    color: rgb(255, 115, 0);
+}
+
+.sub_span {
+    font-size: 25px;
+    color: rgb(255, 115, 0);
+}
+
+.now_summary {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+}
+
+.now_icon {
+    height: 200px;
+    width: 350px;
+}
+
+.now_table td {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.now_table td span+span {
+    padding-left: 10px;
+}
+
+.now_table tr:hover {
+    background-color: rgb(19, 53, 126) !important;
+}
+
+.now_table td img {
+    background-color: white;
+    padding: 4px;
+}
+
+.now_div {
+    position: relative;
+}
+
+.main_div {
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    .hi {
+        color: blue;
+    }
+    .main_image_img {
+        width: 100%;
+    }
+    .now_table td {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-top: 5px;
+        padding-bottom: 7px;
+    }
+}

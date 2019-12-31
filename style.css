@@ -144,6 +144,6 @@ h1 {
         padding-bottom: 7px;
     }
     .input_field {
-    width: 92%;
+    width: 92% !important;
 }
 }

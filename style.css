@@ -134,9 +134,6 @@ h1 {
 }
 
 @media screen and (max-width:576px) {
-    .hi {
-        color: blue;
-    }
     .main_image_img {
         width: 100%;
     }
@@ -146,4 +143,7 @@ h1 {
         padding-top: 5px;
         padding-bottom: 7px;
     }
+    .input_field {
+    width: 92%;
+}
 }
